@@ -21,7 +21,7 @@ const loadContact = () => {
     const fileBuffer = fs.readFileSync('data/contacts.json', 'utf8');
     const contacts = JSON.parse(fileBuffer);
     return contacts;
-}
+};
 
 const simpanContact = (nama, email, noHP) => { 
 const contact = { nama, email, noHP };
